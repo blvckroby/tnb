@@ -1,5 +1,5 @@
 const { addonBuilder, serveHTTP } = require("stremio-addon-sdk");
-import fetch from "node-fetch";
+const res = await fetch(url);
 
 const BASE = "https://tvvoo.hayd.uk/cfg-it";
 
