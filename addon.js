@@ -1,5 +1,7 @@
 const { addonBuilder, serveHTTP } = require("stremio-addon-sdk");
-const res = await fetch(url);
+
+// Node 22 ha fetch nativo, quindi non serve importare nulla
+// RIMOSSA la riga sbagliata: const res = await fetch(url);
 
 const BASE = "https://tvvoo.hayd.uk/cfg-it";
 
