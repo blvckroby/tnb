@@ -105,4 +105,4 @@ builder.defineMetaHandler(async (args) => {
 
 
 // 4️⃣ Avvio server
-serveHTTP(builder.getInterface(), { port: 7000 });
+serveHTTP(builder.getInterface(), { port: 7000, host: "0.0.0.0" });
